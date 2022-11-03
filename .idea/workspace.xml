@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c86187-1ce5-4ed1-b6d8-4bea912604e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DataType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IndexAccessOperators.kt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LogicalOperators.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Operations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Operations2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/inOperators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Conversion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IfExpression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IfExpression2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Input.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LargestNumber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Output.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/When.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Comparison.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Comparison.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MyName.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/MyName.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -43,40 +43,41 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lolade/IdeaProjects/DemoBankin-App-With-SpringBoot&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.InOperatorsKt">
-    <configuration name="ComparisonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComparisonKt" />
+  <component name="RunManager" selected="Kotlin.LargestNumberKt">
+    <configuration name="ConversionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConversionKt" />
       <module name="untitled1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InOperatorsKt" />
+    <configuration name="IfExpressionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IfExpressionKt" />
       <module name="untitled1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexAccessOperators_ktKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IndexAccessOperators_ktKt" />
+    <configuration name="InputKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InputKt" />
       <module name="untitled1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicalOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogicalOperatorsKt" />
+    <configuration name="LargestNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestNumberKt" />
       <module name="untitled1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyNameKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyNameKt" />
+    <configuration name="OutputKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OutputKt" />
       <module name="untitled1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.InOperatorsKt" />
-        <item itemvalue="Kotlin.IndexAccessOperators_ktKt" />
-        <item itemvalue="Kotlin.LogicalOperatorsKt" />
-        <item itemvalue="Kotlin.ComparisonKt" />
-        <item itemvalue="Kotlin.MyNameKt" />
+        <item itemvalue="Kotlin.LargestNumberKt" />
+        <item itemvalue="Kotlin.IfExpressionKt" />
+        <item itemvalue="Kotlin.InputKt" />
+        <item itemvalue="Kotlin.OutputKt" />
+        <item itemvalue="Kotlin.ConversionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +103,8 @@
       <updated>1667384295904</updated>
       <workItem from="1667384297354" duration="3112000" />
       <workItem from="1667393679871" duration="61000" />
-      <workItem from="1667394487682" duration="3833000" />
+      <workItem from="1667394487682" duration="7367000" />
+      <workItem from="1667467019292" duration="3524000" />
     </task>
     <task id="LOCAL-00001" summary="kotlin pratice">
       <created>1667395078590</created>
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667395078590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="kotlin pratice">
+      <created>1667398373668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667398373668</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
